@@ -622,7 +622,9 @@
     "skill": {
       "builtin_read_only": "Memoh 自带 Skill 由系统管理，无法编辑或删除。",
       "name_taken": "已存在同名 Skill，请换一个名称。",
-      "save_failed": "Skill 保存失败，请重试。"
+      "save_failed": "Skill 保存失败，请重试。",
+      "registry_read_only": "该 Skill 属于 Registry App，请通过更新或卸载 App 来修改。",
+      "name_invalid": "Skill 的 YAML frontmatter 中需要有效的名称。"
     },
     "registry": {
       "unavailable": "暂时无法连接 Supermarket，请稍后重试。",
@@ -633,7 +635,8 @@
     "workspace": {
       "unreachable": "暂时无法连接工作区，请稍后重试。",
       "template_bootstrap_failed": "工作区文件初始化失败，请尝试重建工作区。",
-      "display_prepare_failed": "显示环境准备失败，请稍后重试。"
+      "display_prepare_failed": "显示环境准备失败，请稍后重试。",
+      "archive_invalid": "无法解压该文件，请使用有效的 .zip、.tar.gz 或 .tgz 文件。"
     },
     "workspace_dependency": {
       "not_found": "该依赖不存在。",
@@ -849,7 +852,17 @@
     "invalid_chat_runtime": "选择的对话运行时无效。",
     "queue_invocation_conflict": "这条消息已用不同内容提交过。",
     "queue_unsupported_session": "讨论会话暂不支持队列操作。",
-    "queue_follow_up_unsupported_channel": "该渠道暂不支持排队消息：渠道回复只能随你发送的消息投递。可用 /steer 补充当前回复，或在 Web 端排队。"
+    "queue_follow_up_unsupported_channel": "该渠道暂不支持排队消息：渠道回复只能随你发送的消息投递。可用 /steer 补充当前回复，或在 Web 端排队。",
+    "tts": {
+      "text_too_long": "文本过长，最多 {max} 个字符。",
+      "model_not_configured": "此 Bot 尚未配置语音合成模型，请先在 Bot 设置中选择。"
+    },
+    "bot_backup": {
+      "bundle_invalid": "备份文件已损坏，或版本不受支持。"
+    },
+    "fetch_provider": {
+      "native_managed": "内置抓取服务由 Memoh 管理，无法这样修改。"
+    }
   },
   "runtime": {
     "claudeCode": {

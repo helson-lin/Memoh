@@ -622,7 +622,9 @@
     "skill": {
       "builtin_read_only": "Memoh 組み込みの Skill はシステムによって管理されているため、編集または削除できません。",
       "name_taken": "同じ名前の Skill がすでに存在します。別の名前を使用してください。",
-      "save_failed": "Skill を保存できませんでした。もう一度お試しください。"
+      "save_failed": "Skill を保存できませんでした。もう一度お試しください。",
+      "registry_read_only": "この Skill は Registry App に属します。App を更新またはアンインストールしてください。",
+      "name_invalid": "Skill の YAML frontmatter に有効な名前が必要です。"
     },
     "registry": {
       "unavailable": "Supermarket に接続できません。しばらくしてからもう一度お試しください。",
@@ -633,7 +635,8 @@
     "workspace": {
       "unreachable": "Workspace に接続できません。しばらくしてからもう一度お試しください。",
       "template_bootstrap_failed": "Workspace ファイルを初期化できませんでした。Workspace を再構築してからもう一度お試しください。",
-      "display_prepare_failed": "ディスプレイの準備に失敗しました。しばらくしてからもう一度お試しください。"
+      "display_prepare_failed": "ディスプレイの準備に失敗しました。しばらくしてからもう一度お試しください。",
+      "archive_invalid": "アーカイブを展開できません。有効な .zip、.tar.gz、.tgz ファイルを使用してください。"
     },
     "workspace_dependency": {
       "not_found": "この依存関係は存在しません。",
@@ -849,7 +852,17 @@
     "invalid_chat_runtime": "選択されたチャットruntimeが無効です。",
     "queue_invocation_conflict": "このメッセージは別の内容ですでに送信されています。",
     "queue_unsupported_session": "ディスカッションセッションではキュー操作を利用できません。",
-    "queue_follow_up_unsupported_channel": "このチャンネルではキュー投入を利用できません。返信は送信したメッセージに対してのみ届きます。/steer で現在の返信に追加するか、Web アプリからキューに追加してください。"
+    "queue_follow_up_unsupported_channel": "このチャンネルではキュー投入を利用できません。返信は送信したメッセージに対してのみ届きます。/steer で現在の返信に追加するか、Web アプリからキューに追加してください。",
+    "tts": {
+      "text_too_long": "テキストが長すぎます。上限は{max}文字です。",
+      "model_not_configured": "この Bot には音声合成モデルが設定されていません。Bot 設定で選択してください。"
+    },
+    "bot_backup": {
+      "bundle_invalid": "バックアップファイルが破損しているか、非対応のバージョンです。"
+    },
+    "fetch_provider": {
+      "native_managed": "組み込みの取得プロバイダーは Memoh が管理しており、この方法では変更できません。"
+    }
   },
   "runtime": {
     "claudeCode": {
