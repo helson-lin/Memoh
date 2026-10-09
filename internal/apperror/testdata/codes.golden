@@ -255,3 +255,9 @@ external_runtime.request_blocked	422
 external_runtime.upstream_unreachable	502
 request.field_invalid	400
 request.field_required	400
+bot.name_invalid	400
+channel.binding_required	409
+channel.enable_failed	400
+channel.webhook_endpoint_invalid	400
+network.provider_not_configured	409
+user.cannot_remove_self	400
