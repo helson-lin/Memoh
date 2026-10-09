@@ -255,3 +255,5 @@ external_runtime.request_blocked	422
 external_runtime.upstream_unreachable	502
 request.field_invalid	400
 request.field_required	400
+chat.message_empty	400
+workdir.remote_unsupported_for_agent	400
